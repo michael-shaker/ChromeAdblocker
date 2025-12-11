@@ -1,0 +1,13 @@
+{
+    "name": "Chrome Extension Adblocker",
+    "version": "1.0",
+    "description": "A simple adblocker extension for Chrome.",
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "<all_urls>"
+    ],
+    "background": {
+        "scripts": ["background.js"] 
+    }
+}
