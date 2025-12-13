@@ -1,7 +1,7 @@
 {
     "name": "Chrome Extension Adblocker",
     "version": "1.0",
-    "description": "A simple adblocker extension for Chrome.",
+    "description": "Mike's adblocker extension for Chrome.",
     "permissions": [
         "webRequest",
         "webRequestBlocking",
@@ -9,5 +9,12 @@
     ],
     "background": {
         "scripts": ["background.js"] 
-    }
+    },
+    "icons": {
+        "16": "icons/icon.png",
+        "48": "icons/icon.png",
+        "128": "icons/icon.png"
+
+    },
+    "manifest_version": 3
 }
